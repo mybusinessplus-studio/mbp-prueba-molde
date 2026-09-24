@@ -1,12 +1,12 @@
-# AGENTS.md — <nombre del proyecto>
+# AGENTS.md — mbp-prueba-molde
 
 Instrucciones para cualquier agente de IA o persona que trabaje en este repositorio.
 Sigue la metodología del estudio: https://github.com/mybusinessplus-studio/metodologia (versión 1.0).
 
 ## Proyecto
 
-- **Qué es:** <una frase>
-- **Tipo:** <sitio público | app web con login | app móvil | automatización>
+- **Qué es:** proyecto de prueba para validar `plantilla-web` y su workflow `calidad.yml`. No se publica.
+- **Tipo:** sitio público
 - **Brief:** [docs/brief.md](docs/brief.md) · **Diseño:** [docs/diseno.md](docs/diseno.md) · **Decisiones:** [docs/adr/](docs/adr/)
 
 ## Stack

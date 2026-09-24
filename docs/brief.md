@@ -1,11 +1,12 @@
-# Brief — <nombre del proyecto>
+# Brief — mbp-prueba-molde
 
-**Tipo:** <sitio público | app web con login | app móvil | automatización>
-**Responsable:** <nombre> · **Fecha:** <AAAA-MM-DD> · **Estado:** borrador | aprobado
+**Tipo:** sitio público
+**Responsable:** Iván Correa · **Fecha:** 2026-09-24 · **Estado:** aprobado
 
 ## 1. Problema
 
-<Qué duele hoy, a quién, cómo se resuelve actualmente.>
+Antes de usar `plantilla-web` con clientes, hay que comprobar en un proyecto real que los controles
+automáticos (`calidad.yml`) aprueban un cambio correcto y bloquean cada tipo de fallo.
 
 ## 2. Usuarios y roles
 
@@ -15,15 +16,18 @@
 
 ## 3. Objetivos medibles
 
-- <ej. reducir de 2 h a 15 min el cierre diario>
+- Cada control (formato, linter, tipos, pruebas, compilación, secretos) bloquea al menos un PR con fallo.
+- Un PR correcto pasa en verde sin intervención manual.
 
 ## 4. Alcance de la versión 1
 
 **Entra:**
--
+
+- PR limpio, PR con fallos provocados, PR con secreto falso, revisión de Dependabot.
 
 **No entra:**
--
+
+- Publicar el sitio, conectar Supabase, datos reales.
 
 ## 5. Requisitos funcionales
 
